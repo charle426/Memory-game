@@ -108,8 +108,8 @@ function App() {
   
   return (
     <section>
-      <div>
         <h1>MEMORY GAME</h1>
+      <div>
         <div>
           {emoji[0] && matchedCard.length === emoji.length ? (
             <div className="wrapper wrapper--accent">
